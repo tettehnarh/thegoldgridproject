@@ -1,0 +1,52 @@
+.app {
+  position: relative; /* Add position relative to the app container */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: linear-gradient(rgba(255, 255, 255, 0.1), rgba(7, 7, 7, 0.3)),
+    url("https://images.pexels.com/photos/1323550/pexels-photo-1323550.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+  background-size: cover;
+  background-position: center;
+}
+
+form {
+  background-color: white;
+  padding: 0px 60px;
+  border-radius: 10px;
+}
+
+h1 {
+  color: rgb(77, 1, 77);
+  text-align: center;
+}
+
+button {
+  width: 100%;
+  height: 50px;
+  padding: 10px;
+  border: none;
+  background-color: rebeccapurple;
+  color: white;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 18px;
+  cursor: pointer;
+  margin-top: 15px;
+  margin-bottom: 40px;
+}
+
+.logout-button {
+  position: absolute; /* Add position absolute */
+  top: 10px; /* Adjust the top position to your desired value */
+  right: 10px; /* Adjust the right position to your desired value */
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.logout-icon {
+  width: 30px;
+  height: 30px;
+  color: rebeccapurple;
+}
